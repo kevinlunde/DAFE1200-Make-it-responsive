@@ -1,5 +1,71 @@
-.topbox {
+@font-face {
+	font-family: "Roboto Light";
+	src: url(font/Roboto-Light.ttf)
+}
 
+@font-face {
+	font-family: "Roboto Regular";
+	src: url(font/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Roboto Medium Italic";
+	src: url(font/Roboto-MediumItalic.ttf);
+}
+
+body {
+    margin: 0 0;
+		padding: 0 0;
+		font-family: "Roboto Light";
+		background-color: #3aafa9;
+}
+
+.topbox {
+  font-size: 25px;
+}
+
+.topbox ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3aafa9;
+	max-width: 100%;
+}
+
+.flex-navbar {
+	display: flex;
+	justify-content: center;
+	margin-right: 15%;
+	font-family: "Roboto Light";
+}
+
+.leftbox {
+	margin-left: 5%;
+	font-family: "Roboto Medium Italic";
+	color: #171717;
+}
+
+.topbox .active {
+  color: #feffff;
+}
+
+.topbox li a {
+  display: block;
+  color: #feffff;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+	font-size: 1em;
+	float: left;
+	text-align: center;
+}
+
+.flex-navbar li a:hover {
+  color: #2b7a78;
 }
 
 .footer{
