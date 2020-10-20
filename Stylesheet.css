@@ -49,8 +49,8 @@ body {
 	color: #171717;
 }
 
-.topbox .active {
-  color: #feffff;
+.flex-navbar .active {
+  color: #171717;
 }
 
 .topbox li a {
