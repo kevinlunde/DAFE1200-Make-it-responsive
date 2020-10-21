@@ -77,41 +77,52 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 10%;
-	align-items: center;
 }
 
 .index h1{
-	font-size: 6em;
+	font-size: 8rem;
 }
 
 .indexTXT{
-	width: 40%;
+	width: 50%;
 	float: right;
-	background-color: beige;
-
+	font-size: 2rem;
 }
+
+
 .index img{
 	max-width: 100%;
 }
 
 .indexIMG{
-	width: 40%;
+	width: 50%;
 	float: left;
 	background-color: brown;
 }
 
 .indexClickbox1{
-	width: 20%;
+	width: auto;
 	float: left;
 	margin-left: 5%;
-	background-color: #2b7a78;
+	background-color:#2b7a78;
+	font-weight: 500;
+	font-size: 3rem;
+	color: #3aafa9;
 }
 .indexClickbox2{
-	width: 20%;
+	width: auto;
 	float: right;
 	margin-right: 5%;
 	background-color: #2b7a78;
+	font-weight: ;
+	font-size: 3rem;
+	color: #3aafa9
 }
+@media (max-width:1200px) {
+	.indexsIMG {
+	  display: none !important;
+	}
+ }
 
 .footer{
    
