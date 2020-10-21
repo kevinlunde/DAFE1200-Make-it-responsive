@@ -68,6 +68,24 @@ body {
   color: #2b7a78;
 }
 
+.indexClickbox{
+	background-color: #2b7a78;
+}
+
+.indexTXT{
+	display: flex;
+	width: 40%;
+	height: 2000px;
+	align-items: stretch;
+	float: right;
+	background-color: beige;
+
+}
+
+.indexIMG{
+
+}
+
 .footer{
    
 }
