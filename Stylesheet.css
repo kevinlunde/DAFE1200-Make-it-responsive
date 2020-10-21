@@ -73,16 +73,19 @@ body {
 }
 
 .index{
+	display: flex;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-top: 10%;
+	align-items: center;
+}
+
+.index h1{
+	font-size: 6em;
 }
 
 .indexTXT{
-	display: flex;
 	width: 40%;
-	height: ;
-	align-items: stretch;
-	flex-grow: 1;
 	float: right;
 	background-color: beige;
 
@@ -92,13 +95,22 @@ body {
 }
 
 .indexIMG{
-	display: flex;
 	width: 40%;
 	float: left;
-	align-items: stretch;
-	align-items:;
 	background-color: brown;
+}
 
+.indexClickbox1{
+	width: 20%;
+	float: left;
+	margin-left: 5%;
+	background-color: #2b7a78;
+}
+.indexClickbox2{
+	width: 20%;
+	float: right;
+	margin-right: 5%;
+	background-color: #2b7a78;
 }
 
 .footer{
