@@ -72,17 +72,32 @@ body {
 	background-color: #2b7a78;
 }
 
+.index{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 .indexTXT{
 	display: flex;
 	width: 40%;
-	height: 2000px;
+	height: ;
 	align-items: stretch;
+	flex-grow: 1;
 	float: right;
 	background-color: beige;
 
 }
+.index img{
+	max-width: 100%;
+}
 
 .indexIMG{
+	display: flex;
+	width: 40 %;
+	float: left;
+	align-items: stretch;
+	align-items:;
+	background-color: brown;
 
 }
 
