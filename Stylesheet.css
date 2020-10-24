@@ -267,6 +267,42 @@ p {
     }
 }
 
+@media screen and (max-width: 1000px){
+    .team-box img {
+        max-width: 50%;
+    }
+
+    .team-statement {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    .leftbox {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .topbox li a {
+        font-size: 20px;
+        margin: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .about-box p {
+        font-size: 20px;
+    }
+
+    .about-box h1 {
+        font-size: 30px;
+    }
+
+    .team-box p {
+        font-size: 20px;
+    }
+}
 
 .footer{
 
