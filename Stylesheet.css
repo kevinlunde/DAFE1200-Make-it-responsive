@@ -1,228 +1,273 @@
 @font-face {
-	font-family: "Roboto Light";
-	src: url(font/Roboto-Light.ttf)
+    font-family: "Roboto Light";
+    src: url(font/Roboto-Light.ttf)
 }
 
 @font-face {
-	font-family: "Roboto Regular";
-	src: url(font/Roboto-Regular.ttf);
+    font-family: "Roboto Regular";
+    src: url(font/Roboto-Regular.ttf);
 }
 
 @font-face {
-	font-family: "Roboto Medium Italic";
-	src: url(font/Roboto-MediumItalic.ttf);
+    font-family: "Roboto Medium Italic";
+    src: url(font/Roboto-MediumItalic.ttf);
 }
 
 @media (max-width:1200px) {
-	.indexsIMG img {
-	  display: none !important;
-	}
- }
+    .indexsIMG img {
+        display: none !important;
+    }
+}
 
 body {
     margin: 0 0;
-	padding: 0 0;
-	padding-top: 5%;
-	font-family: "Roboto Light";
-	background-color: #3aafa9;
+    padding: 0 0;
+    padding-top: 5%;
+    font-family: "Roboto Light";
+    background-color: #3aafa9;
 }
 
 h1 {
-	font-family: "Roboto Medium Italic";
-	font-size: 40px;
-	color: #171717;
+    font-family: "Roboto Medium Italic";
+    font-size: 40px;
+    color: #171717;
 }
 
 h2 {
-	font-family: "Roboto Regular";
-	font-size: 35px;
-	color: #171717;
+    font-family: "Roboto Regular";
+    font-size: 35px;
+    color: #171717;
 }
 
 p {
-	font-family: "Roboto Regular";
-	font-size: 20px;
-	line-height: 1.5;
-	color: #171717;
+    font-family: "Roboto Regular";
+    font-size: 20px;
+    line-height: 1.5;
+    color: #171717;
 }
 
 .topbox {
-  font-size: 25px;
+    font-size: 25px;
 }
 
 .topbox ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #3aafa9;
-	max-width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3aafa9;
+    max-width: 100%;
 }
 
 .flex-navbar {
-	display: flex;
-	justify-content: center;
-	margin-right: 15%;
-	font-family: "Roboto Light";
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    font-family: "Roboto Light";
 }
 
 .leftbox {
-	margin-left: 5%;
-	font-family: "Roboto Medium Italic";
-	color: #171717;
+    margin-left: 5%;
+    font-family: "Roboto Medium Italic";
+    color: #171717;
 }
 
 .flex-navbar .active {
-  color: #171717;
+    color: #171717;
 }
 
 .topbox li a {
-  display: block;
-  color: #feffff;
-  text-align: center;
-  padding: 14px 40px;
-  text-decoration: none;
-	font-size: 1em;
-	float: left;
-	text-align: center;
+    display: block;
+    color: #feffff;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 1em;
+    float: left;
+    text-align: center;
 }
 
 .flex-navbar li a:hover {
-  color: #2b7a78;
+    color: #2b7a78;
 }
 
 .indexClickbox{
-	background-color: #2b7a78;
+    background-color: #2b7a78;
 }
 
 .index{
-	display: flex;
-	margin-left: 10%;
-	margin-right: 10%;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .index h1{
-	font-size: 8rem;
+    font-size: 8rem;
 }
 
 .index p{
-	font-size: 2rem;
+    font-size: 2rem;
 }
 
 .indexOpphavIMG{
-	font-size: 1rem;
+    font-size: 1rem;
 }
 
 .indexTXT{
-	width: 50%;
-	float: right;
-	padding-left: 2%;
+    width: 50%;
+    float: right;
+    padding-left: 2%;
 }
 
 .index img{
-	max-width: 100%;
-	border-radius: 10px;
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 .indexIMG{
-	width: 50%;
-	float: left;
-	padding-top: 7%;
+    width: 50%;
+    float: left;
+    padding-top: 7%;
 }
 
 .index button{
-	width: auto;
-	margin-left: 5%;
-	background-color:#2b7a78;
-	border: none;
-	font-weight: 500;
-	font-size: 3rem;
-	color: #3aafa9;
-	border-radius: 4px;
+    width: auto;
+    margin-left: 5%;
+    background-color:#2b7a78;
+    border: none;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #3aafa9;
+    border-radius: 4px;
 }
 .index button:hover{
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-	cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
 }
 
 .index a:link{
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .about-container {
-	display: grid;
-	width: 0 auto;
-	text-align: center;
-	margin-left: 20%;
-	margin-right: 20%;
+    display: grid;
+    width: 0 auto;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .about-box {
-	display: inline-block;
-	text-align: center;
-	padding: 0 5%;
+    display: inline-block;
+    text-align: center;
+    padding: 0 5%;
 }
 
 .about-box p {
-	padding-top: 3%;
-	font-size: 25px;
+    padding-top: 3%;
+    font-size: 25px;
 }
 
 .team-container {
-	text-align: center;
-	margin: 0 auto;
-	max-width: 1200px;
-	display: grid;
-	grid-gap: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-gap: 1rem;
 }
 
 .team-box {
-	background-color: none;
-	color: #171717;
-	padding: 1rem 2rem;
-	height: auto;
+    background-color: none;
+    color: #171717;
+    padding: 1rem 2rem;
+    height: auto;
 }
 
 .team-box img {
-	max-width: 100%;
-	height: auto;
-	box-shadow: 5px 5px #2b7a78;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px #2b7a78;
 }
 
 .team-role {
-	font-weight: bold;
-	font-size: 25px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .team-statement {
-	font-style: italic;
-	font-size: 23px;
+    font-style: italic;
+    font-size: 23px;
+}
+
+.infoCamp{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.scheduleHr{
+    width: 50%;
+    border-top: 2px solid #171717;
+}
+
+.schedule{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    position: center;
+}
+
+.camp{
+    background-color: whitesmoke;
+    border: 2px solid #171717;
+    margin: auto;
+    padding: 0.5rem;
+    width: 400px;
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+    "navn navn"
+    "steddato tekst"
+    "kart kart"
+    ;
+}
+.campContent1{
+    grid-area: navn;
+}
+.campContent2{
+    grid-area: steddato;
+}
+.campContent3{
+    grid-area: kart;
+}
+.campContent4{
+    grid-area: tekst;
 }
 
 @media screen and (max-width: 1100px){
-	.about-container{
-		margin-top: 5%;
-		margin-left: 5%;
-		margin-right: 5%;
-	}
+    .about-container{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 @media screen and (max-width: 620px){
-	.about-container{
-		margin-top: 10%;
-	}
+    .about-container{
+        margin-top: 10%;
+    }
 }
 
 @media screen and (min-width: 1000px){
-	.team-container{
-		grid-template-columns: repeat(2, 1fr);
-	}
+    .team-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
 .footer{
-   
+
 }
