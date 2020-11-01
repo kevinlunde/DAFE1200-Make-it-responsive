@@ -13,9 +13,9 @@
     src: url(font/Roboto-MediumItalic.ttf);
 }
 
-@media (max-width:1200px) {
-    .indexsIMG img {
-        display: none !important;
+@media screen and (max-width:1000px) {
+    .indexsIMG{
+        display: none;
     }
 }
 
