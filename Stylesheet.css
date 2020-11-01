@@ -125,17 +125,17 @@ p {
     border-radius: 10px;
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1800px){
     .indexIMG{
     display:none; 
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1800px) {
     .indexsIMG{
-        display: block;
         width: 50%;
-        padding-top: 5%;
+        min-width: 1000px;
+        padding-top: 50%;
     }
 }
 
