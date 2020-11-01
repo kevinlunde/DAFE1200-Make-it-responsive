@@ -13,12 +13,6 @@
     src: url(font/Roboto-MediumItalic.ttf);
 }
 
-@media screen and (max-width:1000px) {
-    .indexsIMG{
-        display: none;
-    }
-}
-
 body {
     margin: 0 0;
     padding: 0 0;
@@ -118,7 +112,6 @@ p {
 
 .indexTXT{
     width: 50%;
-    float: right;
     padding-left: 2%;
 }
 
@@ -132,10 +125,18 @@ p {
     border-radius: 10px;
 }
 
-.indexIMG{
-    width: 50%;
-    float: left;
-    padding-top: 5%;
+@media (max-width: 1400px){
+    .indexIMG{
+    display:none; 
+    }
+}
+
+@media (min-width:1400px) {
+    .indexsIMG{
+        display: block;
+        width: 50%;
+        padding-top: 5%;
+    }
 }
 
 .index button{
