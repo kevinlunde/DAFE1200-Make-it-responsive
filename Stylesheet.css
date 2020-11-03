@@ -254,6 +254,37 @@ p {
     grid-area: tekst;
 }
 
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 12px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #171717;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #feffff;
+  color: black;
+}
+
+.contact-container {
+  border-radius: 5px;
+  padding: 1% 20%;
+  font-family: "Roboto Regular";
+}
+
 @media screen and (max-width: 1100px){
     .about-container{
         margin-top: 5%;
@@ -320,6 +351,10 @@ p {
 
     .team-box p {
         font-size: 20px;
+    }
+
+    .about-box h2 {
+        font-size: 25px;
     }
 }
 
